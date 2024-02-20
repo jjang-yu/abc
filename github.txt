@@ -12,7 +12,7 @@ user.name=jjang-yu
 user.email=soclsrndirh@gmail.com
 safe.directory=C:/projects
 
-4 $ git remote add origin httphttps://github.com/jjang-yu/abc.git
+4 $ git remote add origin httphttps://github.com/jjang-yu/abc.git
 fatal: not a git repository (or any of the parent directories): .git
 
 5 $ git init
