@@ -3,16 +3,16 @@
 3. commit
 
 접속 후 파일 올리기
-1 $ git config --global user.name jjang-yu
+1 $ git config --global user.name <아이디 입력>
 
-2 $ git config --global user.email soclsrndirh@gmail.com
+2 $ git config --global user.email <이메일 주소 입력>
 
 3 $ git config --global --list
-user.name=jjang-yu
-user.email=soclsrndirh@gmail.com
+user.name=<아이디>
+user.email=<이메일 주소>
 safe.directory=C:/projects
 
-4 $ git remote add origin httphttps://github.com/jjang-yu/abc.git
+4 $ git remote add origin httphttps://github.com/<아이디 입력>/<업로드 할 리포지터리 이름 입력>.git (주소 복+붙 가능)
 fatal: not a git repository (or any of the parent directories): .git
 
 5 $ git init
@@ -20,11 +20,11 @@ Initialized empty Git repository in C:/리눅스/.git/
 
 6 $ git add github.txt
 
-7 $ git commit -m 'github'
+7 $ git commit -m '<업로드 할 파일 이름 입력>'
 [master (root-commit) c7968d4] github
  1 file changed, 3 insertions(+)
  create mode 100644 github.txt
 
-8 $ git remote add origin https://github.com/jjang-yu/abc.git
+8 $ git remote add origin https://github.com/<아이디 입력>/<업로드 할 리포지터리 이름 입력>.git (주소 복+붙 가능)
 
 9 $ git push origin master
